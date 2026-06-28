@@ -2,21 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
-    <loc>https://seoinspectorhub.github.io/</loc>
+    <loc>https://seoinspectorhub.github.io/seoinspectorhub</loc>
     <lastmod>2025-06-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
 
   <url>
-    <loc>https://seoinspectorhub.github.io/about.html</loc>
+    <loc>https://seoinspectorhub.github.io/seoinspectorhub/about.html</loc>
     <lastmod>2025-06-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://seoinspectorhub.github.io/contact.html</loc>
+    <loc>https://seoinspectorhub.github.io/seoinspectorhub/contact.html</loc>
     <lastmod>2025-06-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>

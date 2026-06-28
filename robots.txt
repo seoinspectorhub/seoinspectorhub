@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://seoinspectorhub.github.io/sitemap.xml
+Sitemap: https://seoinspectorhub.github.io/seoinspectorhub/sitemap.xml
