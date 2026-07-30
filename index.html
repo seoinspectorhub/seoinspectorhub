@@ -52,31 +52,34 @@
       padding: 1.5rem;
       margin: 2.5rem 0;
       background: #fafafa;
+      color: #1a1a1a;
     }
-    .quick-check h3 { margin-top: 0; }
+    .quick-check h3 { margin-top: 0; color: #111 !important; }
+    .quick-check > p { color: #444 !important; margin-top: -.5rem; }
     .quick-check .qc-row { display: flex; gap: .5rem; flex-wrap: wrap; }
     .quick-check input[type="text"] {
       flex: 1; min-width: 220px; padding: .7rem .9rem;
       border-radius: 8px; border: 1px solid #ccc; font-size: 1rem;
+      color: #111; background: #fff;
     }
     .quick-check button {
       padding: .7rem 1.2rem; border-radius: 8px; border: none;
       background: #111; color: #fff; font-weight: 600; cursor: pointer; font-size: .95rem;
     }
     .quick-check button:hover { opacity: .85; }
-    .qc-status { font-size: .85rem; color: #777; margin-top: .5rem; min-height: 1.2em; }
+    .qc-status { font-size: .85rem; color: #666 !important; margin-top: .5rem; min-height: 1.2em; }
     .qc-results { margin-top: 1rem; display: none; }
     .qc-results table { width: 100%; border-collapse: collapse; font-size: .92rem; }
-    .qc-results td { padding: .5rem .3rem; border-bottom: 1px solid #e5e5e5; vertical-align: top; }
-    .qc-results td:first-child { width: 35%; color: #666; }
-    .qc-ok { color: #1a9e5c; font-weight: 600; }
-    .qc-warn { color: #b5860a; font-weight: 600; }
-    .qc-bad { color: #d64545; font-weight: 600; }
+    .qc-results td { padding: .5rem .3rem; border-bottom: 1px solid #e5e5e5; vertical-align: top; color: #222; }
+    .qc-results td:first-child { width: 35%; color: #555 !important; }
+    .qc-ok { color: #1a9e5c !important; font-weight: 600; }
+    .qc-warn { color: #a06c00 !important; font-weight: 600; }
+    .qc-bad { color: #c62828 !important; font-weight: 600; }
     .qc-locked {
       margin-top: 1rem; padding: 1rem; border-radius: 8px;
-      background: #fff3e0; border: 1px solid #ffd9a0; font-size: .92rem;
+      background: #fff3e0; border: 1px solid #ffd9a0; font-size: .92rem; color: #663c00 !important;
     }
-    .qc-locked a { font-weight: 700; }
+    .qc-locked a { font-weight: 700; color: #0b5fff !important; }
   </style>
 </head>
 <body>
@@ -142,7 +145,7 @@
 
     <!-- QUICK CHECK WIDGET -->
     <div class="quick-check">
-      <h3>🔍 Try it now — quick SEO check</h3>
+      <h3>🔍 Try it now — quick SEO check by <a href="https://seoinspectorhub.com" target="_blank" rel="noopener" style="color:#111;">SEO Inspector Hub</a></h3>
       <p style="margin-top:-.5rem; color:#555;">Paste any URL below for a free 3-point preview. Full 8-category audits with unbranded PDF/Word reports are available on the main site.</p>
       <div class="qc-row">
         <input type="text" id="qcUrl" placeholder="https://example.com/page" />
